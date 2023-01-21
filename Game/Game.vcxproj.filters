@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3Dmodel">
+      <UniqueIdentifier>{63cbefcf-ca91-4b70-a8a7-4db8a07fd7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{500165c3-733c-4aeb-8f0d-a1636caffd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="weapon">
+      <UniqueIdentifier>{f64018fc-2f74-4b2a-8b56-ebedbcaf9a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{5a5dcecd-098e-416d-8e34-e90b2b3ab300}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="BulletModel.cpp">
+      <Filter>3Dmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="BombModel.cpp">
+      <Filter>3Dmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPlaneModel.cpp">
+      <Filter>3Dmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="Sea.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="hud.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="bomb.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFleetModel.cpp">
+      <Filter>3Dmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileModel.cpp">
+      <Filter>3Dmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBulletModel.cpp">
+      <Filter>3Dmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFleet.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPlane.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp" />
+    <ClCompile Include="stage.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFleetbullet.cpp">
+      <Filter>weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="vec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="BulletModel.h">
+      <Filter>3Dmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="BombModel.h">
+      <Filter>3Dmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPlaneModel.h">
+      <Filter>3Dmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="Sea.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb.h">
+      <Filter>weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFleetModel.h">
+      <Filter>3Dmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileModel.h">
+      <Filter>3Dmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBulletModel.h">
+      <Filter>3Dmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFleet.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPlane.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h" />
+    <ClInclude Include="stage.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFleetbullet.h">
+      <Filter>weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h" />
+  </ItemGroup>
+</Project>
